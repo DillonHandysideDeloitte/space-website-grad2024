@@ -1,9 +1,10 @@
 import Technology from "../components/Technology";
+import './Technologies.css';
 
 function Technologies() {
   return (
     <div className="Technologies background-container" data-background="technologies">
-      <h3>Learn more about our</h3> 
+      <h3>Learn about our</h3> 
       <h2>Technology</h2>
       <ul>
         <li>Space Capsule</li>

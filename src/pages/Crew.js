@@ -1,4 +1,5 @@
 import CrewMember from "../components/CrewMember";
+import './Crew.css';
 
 function Crew() {
   return (

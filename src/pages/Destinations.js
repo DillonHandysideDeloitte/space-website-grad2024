@@ -1,4 +1,5 @@
 import Destination from "../components/Destination";
+import "./Destinations.css";
 
 function Destinations() {
   return (

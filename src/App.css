@@ -2,45 +2,6 @@
   /* text-align: center; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-body {
-  color: white;
-} 
-
 .background-container {
   position: fixed;
   top: 0;
@@ -51,19 +12,22 @@ body {
   background-position: center;
 }
 
-/* Specific background images for each page */
-.background-container[data-background='home'] {
-  background-image: url('../public/home/background-home-desktop.jpg');
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.background-container[data-background='destinations'] {
-  background-image: url('../public/destination/background-destination-desktop.jpg');
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.background-container[data-background='crew'] {
-  background-image: url('../public/crew/background-crew-desktop.jpg');
-}
-
-.background-container[data-background='technologies'] {
-  background-image: url('../public/technology/background-technology-desktop.jpg');
-}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
