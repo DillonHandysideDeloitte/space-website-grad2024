@@ -1,15 +1,17 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Nav.css';
+
 function Nav() {
   return (
-    <div className="Nav">
-      <header className="Nav-header">
+    <header className="Nav">
         <nav>
-          00 Home
-          01 Destination
-          02 Crew
-          03 Technology
+          <Link to="home">Home</Link>
+          <Link to="destinations">Destination</Link>
+          <Link to="crew">Crew</Link>
+          <Link to="technologies">Technology</Link>
         </nav>
-      </header>
-    </div>
+    </header>
   );
 }
 
