@@ -1,17 +1,13 @@
 import logo from './logo.svg';
 import earth from './Earth_Western_Hemisphere_transparent_background.png'
 import './App.css';
+import Nav from './Nav';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <nav>
-          00 Home
-          01 Destination
-          02 Crew
-          03 Technology
-        </nav>
+        <Nav />
         <img src={earth} className="App-logo" alt="logo" />
         <p>
           So, you want to travel to
